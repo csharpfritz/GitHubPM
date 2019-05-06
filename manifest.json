@@ -1,0 +1,44 @@
+{
+	"Actions": [
+		{
+			"Icon": "images/actionIcon",
+			"Name": "GitHubIssuesAction",
+			"States": [
+				{
+					"Image": "images/actionDefaultImage",
+					"TitleAlignment": "middle",
+					"FontSize": "6"
+				}
+			],
+			"SupportedInMultiActions": false,
+			"Tooltip": "Monitor a GitHub repository's open issue count",
+			"UUID": "com.csharpfritz.github.issues"
+		}
+	],
+	"Category": "CSharpFritz Plugins",
+	"CategoryIcon": "images/category/categoryIcon.png",
+	"Disabled": false,
+	"Author": "Jeffrey T. Fritz",
+	"CodePathWin": "GitHubPM.cmd",
+	"CodePathMac": "GitHubPM",
+	"PropertyInspectorPath": "property_inspector/property_inspector.html",
+	"Description": "Monitor a GitHub repository's open issue count",
+	"Name": "GitHub Issues",
+	"Icon": "images/pluginIcon",
+	"URL": "https://github.com/csharpfritz/GitHubPM",
+	"Version": "1.0",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "4.1"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.11"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	]
+}
